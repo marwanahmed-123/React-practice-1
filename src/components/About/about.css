@@ -1,0 +1,17 @@
+.about {
+  background-color: #1abc9c;
+  width: 100%;
+  height: calc(100vh - 120px);
+}
+.about .container {
+  height: 100%;
+}
+.about .smile {
+  width: 250px;
+}
+.about .title-decoration::after {
+  background-color: white !important;
+}
+.about .title-decoration::before {
+  background-color: white !important;
+}

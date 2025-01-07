@@ -1,0 +1,17 @@
+.home {
+  background-color: #1abc9c;
+  width: 100%;
+  height: calc(100vh - 120px);
+}
+.home .container {
+  height: 100%;
+}
+.home .smile {
+  width: 250px;
+}
+.home .title-decoration::after {
+  background-color: white;
+}
+.home .title-decoration::before {
+  background-color: white;
+}

@@ -1,0 +1,39 @@
+.contact .title-decoration::after {
+  background-color: black;
+}
+.contact .title-decoration::before {
+  background-color: black;
+}
+.contact {
+  height: calc(100vh - 120px);
+}
+.contact input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.contact input:focus {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: none;
+}
+.contact label {
+  color: #1abc9c;
+  position: absolute;
+  outline: none;
+  transition: 0.3s;
+  top: 50px;
+  z-index: -1;
+}
+.contact input:not(:placeholder-shown) + label {
+  top: 0;
+}
+.contact button {
+  background-color: #1abc9c;
+  border: none;
+}
+.contact button:hover {
+  background-color: #1abc9c;
+  border: none;
+}

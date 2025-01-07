@@ -1,0 +1,47 @@
+.portfolio .title-decoration::after {
+  background-color: black;
+}
+.portfolio .title-decoration::before {
+  background-color: black;
+}
+.portfolio .row div {
+  position: relative;
+  padding: 0;
+  align-items: center;
+  border-radius: 10px;
+}
+.portfolio .row .icon {
+  position: absolute;
+  top: 0;
+  font-size: 100px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: transparent;
+  transition: 0.5s;
+}
+.portfolio .row .icon:hover {
+  background-color: #1abc9ceb;
+  color: white;
+  cursor: pointer;
+}
+.portfolio img {
+  display: block;
+  margin: 0;
+  border-radius: 10px;
+}
+.portfolio .full-img {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgba(192, 250, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
