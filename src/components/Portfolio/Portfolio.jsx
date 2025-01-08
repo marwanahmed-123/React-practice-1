@@ -19,7 +19,11 @@ export function Portfolio() {
           <div className="row">
             <div className="col-md-4 p-4">
               <div>
-                <img src="/public/poert1.png" alt="house" className="w-100" />
+                <img
+                  src="/React-practice-1/poert1.png"
+                  alt="house"
+                  className="w-100"
+                />
                 <div className="icon">
                   <FontAwesomeIcon icon={faPlus} />
                 </div>
@@ -27,7 +31,11 @@ export function Portfolio() {
             </div>
             <div className="col-md-4  p-4">
               <div>
-                <img src="/public/port2.png" alt="house" className="w-100" />
+                <img
+                  src="/React-practice-1/port2.png"
+                  alt="house"
+                  className="w-100"
+                />
                 <div className="icon">
                   <FontAwesomeIcon icon={faPlus} />
                 </div>
@@ -35,7 +43,11 @@ export function Portfolio() {
             </div>
             <div className="col-md-4  p-4">
               <div>
-                <img src="/public/port3.png" alt="house" className="w-100" />
+                <img
+                  src="/React-practice-1/port3.png"
+                  alt="house"
+                  className="w-100"
+                />
                 <div className="icon">
                   <FontAwesomeIcon icon={faPlus} />
                 </div>
@@ -43,7 +55,11 @@ export function Portfolio() {
             </div>
             <div className="col-md-4  p-4">
               <div>
-                <img src="/public/poert1.png" alt="house" className="w-100" />
+                <img
+                  src="/React-practice-1/poert1.png"
+                  alt="house"
+                  className="w-100"
+                />
                 <div className="icon">
                   <FontAwesomeIcon icon={faPlus} />
                 </div>
@@ -51,7 +67,11 @@ export function Portfolio() {
             </div>
             <div className="col-md-4 p-4">
               <div>
-                <img src="/public/port2.png" alt="house" className="w-100" />
+                <img
+                  src="/React-practice-1/port2.png"
+                  alt="house"
+                  className="w-100"
+                />
                 <div className="icon">
                   <FontAwesomeIcon icon={faPlus} />
                 </div>
@@ -59,7 +79,11 @@ export function Portfolio() {
             </div>
             <div className="col-md-4 p-4">
               <div>
-                <img src="/public/port3.png" alt="house" className="w-100" />
+                <img
+                  src="/React-practice-1/port3.png"
+                  alt="house"
+                  className="w-100"
+                />
                 <div className="icon">
                   <FontAwesomeIcon icon={faPlus} />
                 </div>
