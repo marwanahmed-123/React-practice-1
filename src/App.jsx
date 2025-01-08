@@ -26,7 +26,10 @@ function App() {
     <Router>
       <nav className="navbar navbar-expand-lg sticky-top w-100 pb-4 pt-4">
         <div className="container">
-          <Link className="navbar-brand fs-2 fw-bold text-white" to="/">
+          <Link
+            className="navbar-brand fs-2 fw-bold text-white"
+            to="/React-practice-1/"
+          >
             START FRAMEWORK
           </Link>
           <button
@@ -74,7 +77,7 @@ function App() {
         </div>
       </nav>
       <Routes>
-        <Route path="/" element={<Home />}></Route>
+        <Route path="/React-practice-1/" element={<Home />}></Route>
         <Route path="/About" element={<About />}></Route>
         <Route path="/Portfolio" element={<Portfolio />}></Route>
         <Route path="/Contact" element={<Contact />}></Route>
